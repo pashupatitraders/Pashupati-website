@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Pashupati Traders</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="icon" type="image/png" href="img/logo.png">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary" style="font-family: 'Open Sans', sans-serif; font-size: 1.7rem; font-weight: bold;"><img src="img/logo.png" alt="Logo" style="height: 40px; margin-right: 10px;">P-Traders</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Product</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="d-none d-xl-flex me-3">
+                        <div class="d-flex flex-column pe-3 border-end border-primary">
+                            <span class="text-body">Need Help? Let’s Connect</span>
+                            <a href="tel:+9779810635404"><span class="text-primary">+977 9810635404</span></a>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Login</a>
+                </div>
+            </nav>
+
+            <!-- Header Start -->
+            <div class="container-fluid bg-breadcrumb">
+                <div class="container text-center py-5" style="max-width: 900px;">
+                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Products</h4>
+                    <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active text-primary">Product</li>
+                    </ol>    
+                </div>
+            </div>
+            <!-- Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Products Start -->
+        <div class="container-fluid product py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-uppercase text-dark display-2">Our Products</h4>
+                    <h5 class="text-primary mb-4">High-quality materials and tools to support your construction, plumbing, and finishing needs.</h5>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="product-item">
+                            <img src="img/int20.png" class="img-fluid w-100 rounded-top" alt="Image" width="400" height="300" style="object-fit:cover;">
+                            <div class="product-content bg-light text-center rounded-bottom p-4">
+                                <p>20 Liter</p>
+                                <a href="#" class="h4 d-inline-block mb-3">Interior Emulsion</a>
+                                <p class="fs-4 text-primary mb-3">2600</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="product-item">
+                            <img src="img/brush.png" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <div class="product-content bg-light text-center rounded-bottom p-4">
+                                <p>Per Inch</p>
+                                <a href="#" class="h4 d-inline-block mb-3">Paint Brush</a>
+                                <p class="fs-4 text-primary mb-3">40</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="product-item">
+                            <img src="img/tarpin.png" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <div class="product-content bg-light text-center rounded-bottom p-4">
+                                <p>1 Liter</p>
+                                <a href="#" class="h4 d-inline-block mb-3">Tarpin</a>
+                                <p class="fs-4 text-primary mb-3">170</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Products End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-12">
+                        <div class="d-flex align-items-center justify-content-start mb-4">
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="https://www.facebook.com/profile.php?id=61564666490993" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="https://wa.me/9779810635404" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="https://www.instagram.com/pashupatitrader/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Our Location</h4>
+                            <div style="width:100%;height:200px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1141.393393964479!2d85.2771413!3d26.7649695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec9500292cb48b%3A0x1b81f6be253195b7!2sPashupati%20Traders%20Hardware%2C%20Nepal%20Money%20Transfer%2C%20Gaur%2044500%2C%20Nepal!5e0!3m2!1sen!2snp!4v1718190000000!5m2!1sen!2snp" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Business Hours</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Sun - Friday:</h6>
+                                <p class="text-white mb-0">08.00 am to 07.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Saturday:</h6>
+                                <p class="text-white mb-0">10.00 am to 06.00 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href="https://maps.app.goo.gl/37fKiw6KnFZ8cq879" target="_blank"><i class="fa fa-map-marker-alt me-2"></i> Pashupati Traders</a>
+                            <a href="mailto:pashupatitraders.gaur@gmail.com" style="white-space:nowrap;"><i class="fas fa-envelope me-2"></i> pashupatitraders.gaur@gmail.com</a>
+                            <a href="tel:+9779855040601"><i class="fas fa-phone me-2"></i> +977 9855040601</a>
+                            <a href="tel:+9779810635404" class="mb-3"><i class="fas fa-phone me-2"></i> +977 9810635404</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Pashupati Traders</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        Designed By <a class="border-bottom text-white" href="https://www.instagram.com/bishalbikrantsinha?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">BishalBikrant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
